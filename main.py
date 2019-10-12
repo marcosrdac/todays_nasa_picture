@@ -50,4 +50,4 @@ link = page[startI+9:]
 end = link.find('"')
 link = link[:end]
 link = 'https://apod.nasa.gov/apod/' + link
-urllib.request.urlretrieve(link, 'todays_nasa_figure.png')
+urllib.request.urlretrieve(link, 'todays_nasa_picture.png')
